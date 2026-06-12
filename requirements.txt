@@ -1,0 +1,30 @@
+# Core RAG pipeline
+sentence-transformers
+chromadb
+rank-bm25
+
+# LLM - Gemini
+google-genai
+
+# HuggingFace
+huggingface-hub
+transformers
+#torch
+
+# Reranking
+# (cross-encoder comes with sentence-transformers, no extra install needed)
+
+# Evaluation
+ragas
+datasets
+
+# API
+fastapi
+uvicorn
+
+# Frontend
+streamlit
+
+# Utilities
+python-dotenv
+pydantic
