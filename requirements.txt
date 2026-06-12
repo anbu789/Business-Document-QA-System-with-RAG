@@ -9,7 +9,7 @@ google-genai
 # HuggingFace
 huggingface-hub
 transformers
-#torch
+torch
 
 # Reranking
 # (cross-encoder comes with sentence-transformers, no extra install needed)
