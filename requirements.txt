@@ -28,3 +28,6 @@ streamlit
 # Utilities
 python-dotenv
 pydantic
+
+#pdf-analyzer
+pdfplumber

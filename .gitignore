@@ -224,3 +224,6 @@ data/uploads/
 *.csv
 *.pdf
 .env.*
+
+chroma_store/
+bm25_index.pkl
