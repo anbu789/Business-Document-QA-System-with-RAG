@@ -3,19 +3,21 @@ sentence-transformers
 chromadb
 rank-bm25
 
-# LLM - Gemini
+# LLM
 google-genai
+langchain-google-genai
+langchain-community
 
 # HuggingFace
 huggingface-hub
 transformers
+
+# PyTorch — CPU only (avoids pulling 2GB+ CUDA build)
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch
 
-# Reranking
-# (cross-encoder comes with sentence-transformers, no extra install needed)
-
 # Evaluation
-ragas
+ragas==0.2.15
 datasets
 
 # API
@@ -29,5 +31,5 @@ streamlit
 python-dotenv
 pydantic
 
-#pdf-analyzer
+# PDF
 pdfplumber
