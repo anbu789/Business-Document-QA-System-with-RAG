@@ -227,3 +227,4 @@ data/uploads/
 
 chroma_store/
 bm25_index.pkl
+auth_config.yaml

@@ -171,7 +171,10 @@ def reciprocal_rank_fusion(dense_results: list[dict],
 def hybrid_search(query: str,
                   top_k: int = 20,
                   dense_k: int = 10,
-                  sparse_k: int = 10) -> list[dict]:
+                  sparse_k: int = 10,
+                  embed_model: SentenceTransformer = None,
+                  collection = None,
+                  bm25_data: tuple = None) -> list[dict]:
     """
     Full hybrid search pipeline:
         1. Dense search  → top dense_k results from ChromaDB
@@ -179,20 +182,35 @@ def hybrid_search(query: str,
         3. RRF merge     → single ranked list, deduplicated
 
     Args:
-        query:    User's natural language question
-        top_k:    Max candidates to return after merging (passed to reranker)
-        dense_k:  How many results to fetch from ChromaDB
-        sparse_k: How many results to fetch from BM25
+        query:       User's natural language question
+        top_k:       Max candidates to return after merging (passed to reranker)
+        dense_k:     How many results to fetch from ChromaDB
+        sparse_k:    How many results to fetch from BM25
+        embed_model: Optional pre-loaded SentenceTransformer. If None, loads fresh
+                     (same behaviour as before — used by CLI runner scripts).
+        collection:  Optional pre-loaded ChromaDB collection. If None, loads fresh.
+        bm25_data:   Optional pre-loaded (bm25_model, texts, metadatas) tuple.
+                     If None, loads fresh from disk.
+
+    Passing preloaded resources avoids reloading models/indexes on every call —
+    this is what the FastAPI backend does via its lifespan-cached app.state,
+    so a query doesn't pay model-load cost on every request. CLI scripts that
+    don't pass these args behave exactly as before.
 
     Returns:
         List of dicts: { text, metadata, rrf_score }, sorted best-first
     """
     print(f"\n[Hybrid] Query: '{query}'")
 
-    # Load indexes and model
-    embed_model = load_embedding_model()
-    collection  = load_chroma_collection()
-    bm25, texts, metadatas = load_bm25_index()
+    # Use preloaded resources if provided, otherwise load fresh (original behaviour)
+    if embed_model is None:
+        embed_model = load_embedding_model()
+    if collection is None:
+        collection = load_chroma_collection()
+    if bm25_data is None:
+        bm25, texts, metadatas = load_bm25_index()
+    else:
+        bm25, texts, metadatas = bm25_data
 
     # Run both searches
     dense_results  = dense_search(query, collection, embed_model, top_k=dense_k)

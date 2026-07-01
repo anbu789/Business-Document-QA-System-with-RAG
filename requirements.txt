@@ -26,6 +26,10 @@ uvicorn
 
 # Frontend
 streamlit
+streamlit-authenticator
+slowapi
+bcrypt
+pyyaml
 
 # Utilities
 python-dotenv
