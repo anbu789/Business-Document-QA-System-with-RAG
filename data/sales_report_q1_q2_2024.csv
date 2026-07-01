@@ -1,0 +1,25 @@
+month,region,product_category,product_name,units_sold,unit_price,revenue,returns,net_revenue,sales_rep
+January,North,Software,Analytics Pro,42,299.00,12558.00,2,11960.00,Michael Torres
+January,South,Hardware,DataNode Server,8,4500.00,36000.00,0,36000.00,Fatima Al-Hassan
+January,West,Software,Analytics Pro,31,299.00,9269.00,1,8970.00,Fatima Al-Hassan
+January,North,Services,Implementation Pack,5,2000.00,10000.00,0,10000.00,Michael Torres
+February,North,Software,Analytics Pro,55,299.00,16445.00,3,15547.00,Michael Torres
+February,East,Software,CRM Suite,28,499.00,13972.00,1,13473.00,Michael Torres
+February,South,Hardware,DataNode Server,12,4500.00,54000.00,1,49500.00,Fatima Al-Hassan
+February,West,Services,Implementation Pack,7,2000.00,14000.00,0,14000.00,Fatima Al-Hassan
+March,North,Software,CRM Suite,40,499.00,19960.00,2,18962.00,Michael Torres
+March,South,Software,Analytics Pro,60,299.00,17940.00,4,16744.00,Fatima Al-Hassan
+March,East,Hardware,DataNode Server,15,4500.00,67500.00,0,67500.00,Michael Torres
+March,West,Software,CRM Suite,22,499.00,10978.00,1,10479.00,Fatima Al-Hassan
+April,North,Software,Analytics Pro,70,299.00,20930.00,3,19433.00,Michael Torres
+April,South,Services,Implementation Pack,10,2000.00,20000.00,1,18000.00,Fatima Al-Hassan
+April,East,Software,CRM Suite,35,499.00,17465.00,2,16467.00,Michael Torres
+April,West,Hardware,DataNode Server,9,4500.00,40500.00,0,40500.00,Fatima Al-Hassan
+May,North,Software,CRM Suite,48,499.00,23952.00,2,22954.00,Michael Torres
+May,South,Software,Analytics Pro,65,299.00,19435.00,3,18538.00,Fatima Al-Hassan
+May,East,Services,Implementation Pack,12,2000.00,24000.00,0,24000.00,Michael Torres
+May,West,Software,Analytics Pro,38,299.00,11362.00,1,11063.00,Fatima Al-Hassan
+June,North,Hardware,DataNode Server,18,4500.00,81000.00,1,76500.00,Michael Torres
+June,South,Software,CRM Suite,52,499.00,25948.00,4,24952.00,Fatima Al-Hassan
+June,East,Software,Analytics Pro,44,299.00,13156.00,2,12558.00,Michael Torres
+June,West,Services,Implementation Pack,8,2000.00,16000.00,0,16000.00,Fatima Al-Hassan

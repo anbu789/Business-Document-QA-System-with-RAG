@@ -1,0 +1,16 @@
+employee_id,name,department,role,salary,start_date,manager,location,employment_type,performance_rating,email
+EMP-001,Sarah Mitchell,Engineering,Senior Software Engineer,95000,2021-03-15,James Okafor,Bangalore,Full-time,Excellent,s.mitchell@company.com
+EMP-002,Rahul Mehta,Engineering,Backend Developer,72000,2022-06-01,Sarah Mitchell,Bangalore,Full-time,Good,r.mehta@company.com
+EMP-003,Priya Nair,Product,Product Manager,88000,2020-11-10,Diana Flores,Mumbai,Full-time,Excellent,p.nair@company.com
+EMP-004,James Okafor,Engineering,Engineering Manager,115000,2019-08-20,CEO,Bangalore,Full-time,Excellent,j.okafor@company.com
+EMP-005,Lin Wei,Design,UI/UX Designer,68000,2023-01-09,Priya Nair,Remote,Full-time,Good,l.wei@company.com
+EMP-006,Diana Flores,Product,VP of Product,130000,2018-05-14,CEO,Mumbai,Full-time,Excellent,d.flores@company.com
+EMP-007,Arjun Sharma,Engineering,DevOps Engineer,80000,2022-09-01,James Okafor,Bangalore,Full-time,Good,a.sharma@company.com
+EMP-008,Fatima Al-Hassan,Sales,Account Executive,65000,2023-03-20,Michael Torres,Remote,Full-time,Satisfactory,f.alhassan@company.com
+EMP-009,Michael Torres,Sales,Sales Manager,95000,2020-02-17,CEO,Mumbai,Full-time,Good,m.torres@company.com
+EMP-010,Kavya Reddy,Engineering,Frontend Developer,70000,2023-07-10,Sarah Mitchell,Bangalore,Full-time,Good,k.reddy@company.com
+EMP-011,Tom Brennan,Finance,Finance Analyst,62000,2022-04-04,Sunita Rao,Remote,Full-time,Satisfactory,t.brennan@company.com
+EMP-012,Sunita Rao,Finance,CFO,140000,2017-10-01,CEO,Mumbai,Full-time,Excellent,s.rao@company.com
+EMP-013,Aiko Tanaka,Marketing,Marketing Specialist,58000,2023-09-15,Grace Patel,Remote,Contract,Good,a.tanaka@company.com
+EMP-014,Grace Patel,Marketing,Marketing Manager,85000,2021-01-25,CEO,Mumbai,Full-time,Excellent,g.patel@company.com
+EMP-015,Vikram Singh,Engineering,Machine Learning Engineer,98000,2021-11-08,James Okafor,Bangalore,Full-time,Excellent,v.singh@company.com

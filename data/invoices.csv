@@ -1,0 +1,21 @@
+invoice_id,date,client_name,client_email,items,quantity,unit_price,total_amount,status,due_date,payment_method,notes
+INV-2024-001,2024-01-05,Acme Corp,billing@acmecorp.com,Web Development Services,1,15000.00,15000.00,Paid,2024-01-20,Bank Transfer,Q1 website redesign project
+INV-2024-002,2024-01-12,BlueSky Technologies,accounts@bluesky.io,Cloud Infrastructure Setup,1,8500.00,8500.00,Paid,2024-01-27,Credit Card,AWS migration phase 1
+INV-2024-003,2024-01-18,Orion Retail,finance@orionretail.com,SEO Audit Report,1,2200.00,2200.00,Overdue,2024-02-02,Bank Transfer,Includes 3 months of keyword analysis
+INV-2024-004,2024-02-01,Nexus Solutions,ap@nexussol.com,Mobile App Development,1,32000.00,32000.00,Paid,2024-02-16,Wire Transfer,iOS and Android — milestone 1 of 3
+INV-2024-005,2024-02-14,Orion Retail,finance@orionretail.com,Social Media Management,3,1200.00,3600.00,Paid,2024-03-01,Credit Card,Monthly retainer — Feb Mar Apr
+INV-2024-006,2024-02-20,Vertex Partners,billing@vertexpartners.com,Data Analytics Dashboard,1,11000.00,11000.00,Pending,2024-03-06,Bank Transfer,Tableau + Python pipeline
+INV-2024-007,2024-03-03,Acme Corp,billing@acmecorp.com,Content Writing,10,350.00,3500.00,Paid,2024-03-18,Credit Card,10 blog posts — tech niche
+INV-2024-008,2024-03-10,BlueSky Technologies,accounts@bluesky.io,Security Audit,1,6000.00,6000.00,Paid,2024-03-25,Bank Transfer,Penetration testing + report
+INV-2024-009,2024-03-22,Pinnacle Ventures,info@pinnaclevc.com,Pitch Deck Design,1,4500.00,4500.00,Overdue,2024-04-06,Credit Card,Series A fundraising deck
+INV-2024-010,2024-04-01,Nexus Solutions,ap@nexussol.com,Mobile App Development,1,32000.00,32000.00,Paid,2024-04-16,Wire Transfer,iOS and Android — milestone 2 of 3
+INV-2024-011,2024-04-08,Meridian Logistics,finance@meridianlog.com,ERP Integration,1,18500.00,18500.00,Paid,2024-04-23,Bank Transfer,SAP to custom API bridge
+INV-2024-012,2024-04-15,Vertex Partners,billing@vertexpartners.com,Machine Learning Model,1,22000.00,22000.00,Pending,2024-04-30,Bank Transfer,Churn prediction model — v1
+INV-2024-013,2024-05-02,Orion Retail,finance@orionretail.com,Email Marketing Campaign,5,800.00,4000.00,Paid,2024-05-17,Credit Card,5 campaign blasts with analytics
+INV-2024-014,2024-05-10,Acme Corp,billing@acmecorp.com,UI/UX Redesign,1,9000.00,9000.00,Paid,2024-05-25,Bank Transfer,Customer portal redesign
+INV-2024-015,2024-05-20,Pinnacle Ventures,info@pinnaclevc.com,Financial Modeling,1,7500.00,7500.00,Pending,2024-06-04,Wire Transfer,5-year revenue projection model
+INV-2024-016,2024-06-01,Meridian Logistics,finance@meridianlog.com,Custom Reporting Tool,1,13000.00,13000.00,Paid,2024-06-16,Bank Transfer,Real-time shipment dashboard
+INV-2024-017,2024-06-11,BlueSky Technologies,accounts@bluesky.io,DevOps Consulting,1,5500.00,5500.00,Paid,2024-06-26,Credit Card,CI/CD pipeline setup
+INV-2024-018,2024-07-01,Nexus Solutions,ap@nexussol.com,Mobile App Development,1,32000.00,32000.00,Invoiced,2024-07-16,Wire Transfer,iOS and Android — milestone 3 of 3
+INV-2024-019,2024-07-08,Apex Digital,hello@apexdigital.co,Brand Identity Package,1,6800.00,6800.00,Paid,2024-07-23,Credit Card,Logo + style guide + brand kit
+INV-2024-020,2024-07-15,Vertex Partners,billing@vertexpartners.com,ML Model Deployment,1,9500.00,9500.00,Invoiced,2024-07-30,Bank Transfer,Churn model — production deployment

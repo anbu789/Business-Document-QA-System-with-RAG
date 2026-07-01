@@ -221,8 +221,6 @@ chroma_db/
 vector_store/
 data/raw/
 data/uploads/
-*.csv
-*.pdf
 .env.*
 
 chroma_store/
